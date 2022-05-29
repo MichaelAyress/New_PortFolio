@@ -1,0 +1,67 @@
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+body {
+    background: linear-gradient(50deg, #04BFBF, #C004D9);
+                
+                            
+    background-attachment: fixed;
+    font-family: helvetica,Arial,sans-serif;
+                               
+}
+
+
+
+/* Barra de navegação 
+------------------------*/
+.logo {
+   font-size: 3em;
+   margin-left: 0.4em;
+}
+
+.color  {
+    width: 500px;
+    color:  #00aeda
+}
+
+.logo-name {
+    font-weight: 700;
+    letter-spacing: -.05em;
+    color: rgba(255, 255, 255, 0.76);
+    text-shadow: #fff 0 0, cyan 0 0;
+    transition: text-shadow 200ms
+}
+
+.logo-name:hover {
+    text-shadow:  rgba(0, 255, 255, 0.329) 6px 0;
+}
+
+.logo-portfolio {
+    font-weight: 100;
+    margin-left: 0.3em;
+    letter-spacing: 0.2em;
+    color: rgba(212, 212, 212, 0.76);
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #04BFBF;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
