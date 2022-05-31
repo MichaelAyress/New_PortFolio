@@ -1,9 +1,19 @@
 :root {
-    --cor-principal: rgba(255, 20, 71, 0.829);
-    --cor-secundaria: rgba(0, 255, 255, 0.856);
-    --cor-conteudo: #541DA1;
+    --cor-principal: #6136BF;
+    --cor-secundaria: #886FBF;
+    --cor-conteudo: #3A2073;
+    --cor-roxo-claro: #62508A;
+    --cor-h2: #721D80;
+    --cor-escura: #201240;
+    --cor-escura2:#1A0E33;
+    --cor-escura3:#1D2026;
+    --cor-cinza-claro:#BABCBF;
+    --cor-cinza-medio:#87898C;
+    --cor-cinza-escuro:#303740;
+    --cor-claro: #D0D7D9;
+    --cor-claro2: #C7CFD9;
+    --cor-claro3: #D5E5F2;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 /*--- font-family: 'Libre Baskerville', serif; -----*/
@@ -12,9 +22,9 @@
 
 /*-----font-family: 'Libre Baskerville', serif;-----*/
 
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 
-/*----- font-family: 'Tangerine', cursive;------*/
+
+/*----- font-family: 'Tiro Tamil', serif;------*/
 
 body {
     margin: 0px;
@@ -44,7 +54,7 @@ html, body, #home {
 
 body {
     background: url(../img/ruido.png),
-                linear-gradient(100deg, #000000, #da02cf);
+                linear-gradient(100deg, #000000, #6136BF);
                     
     background-attachment: fixed;
     font-family: helvetica,Arial,sans-serif;
@@ -70,7 +80,7 @@ body {
     font-weight: 700;
     letter-spacing: -.05em;
     color: rgba(255, 255, 255, 0.76);
-    text-shadow: #fff 0 0, cyan 0 0;
+    text-shadow: #fff 0 0, var(--cor-principal) 0 0;
     transition: text-shadow 200ms;
     position: absolute;
     bottom: 1.5em;
@@ -213,24 +223,28 @@ h1 {
     font-family: 'Libre Baskerville', serif;
     font-size: 3em;
     line-height: 1.2em;
+    
 }
 
 h2 {
     font-family: 'Libre Baskerville', serif;
-    color: var(--cor-principal);
-    text-shadow: 1px 1px 1px 0.5px #000;
+    color: var(--cor-h2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.89);
 }
 
 h3 {
     font-size: 0.9em;
-    color: rgb(139, 139, 139);
+    color: var(--cor-claro3);
 }
 
 .M {
-    font-family: 'Berkshire Swash', cursive;
-    color: var(--cor-principal);
-    font-size: 1.3em;
-    text-shadow: 1px 1px 1px 0.5px #000;
+
+    background-image: url(../img/codego.png);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color: transparent;
+    font-size: 1.6em;
+    font-family: 'Black Ops One', cursive;
 }
 
 .btn-cv {
@@ -239,8 +253,9 @@ h3 {
 }
 
 .btn-cv:hover {
+    border: 1px solid var(--cor-secundaria);
     color: #fff;
-    background-color: var(--cor-conteudo);
+    background: var(--cor-secundaria);
     
     
 }
@@ -278,7 +293,45 @@ h3 {
         margin-left: 1em;
     }
 
-    /*------------*/
+    /*------Capa ------*/
+
+    .texto-capa {
+        width: 100%;
+        margin-left: 0em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+    
+    h1 {
+      
+        font-size: 2.2em;
+        line-height: 1.5em;
+        text-align: center;
+        
+    }
+    
+    h2 {
+      
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 0.7em;
+      
+        text-align: center;
+    }
+    
+    .M {
+       
+        font-size: 1.4em;
+      
+    }
+
+    .btn-cv {
+        margin-left: 5em;
+        margin-top: 1em;
+    }
 
 
    
@@ -317,12 +370,48 @@ h3 {
         margin-left: 3em;
     }
 
-    /*------------*/
+     /*------Capa ------*/
 
-    /*--- Inicio Capa ---*/
+     .texto-capa {
+        width: 100%;
+        margin-left: 0em;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+    }
+    
+    h1 {
+       
+        font-size: 2.2em;
+        line-height: 1.5em;
+        text-align: center;
+        
+    }
+    
+    h2 {
+      
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 0.7em;
+      
+        text-align: center;
+    }
+    
+    .M {
+      
+        font-size: 1.4em;
+      
+    }
+
+    .btn-cv {
+        margin-left: 6em;
+        margin-top: 1em;
+    }
 }
 
-@media (min-width: 360px) and (max-width: 429.98px) {
+@media (min-width: 360px) and (max-width: 381.98px) {
 
     /*- Menu Navegação --*/
     .navbar-brand {
@@ -355,7 +444,121 @@ h3 {
         margin-left: 5em;
     }
 
-    /*------------*/
+      /*------Capa ------*/
+
+      .texto-capa {
+        width: 100%;
+        margin-left: 0em;
+        margin-top: 0em;
+        margin-bottom: 3em;
+    }
+
+    
+    h1 {
+      
+        font-size: 2.2em;
+        line-height: 1.5em;
+        text-align: center;
+        
+    }
+    
+    h2 {
+      
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 0.7em;
+      
+        text-align: center;
+    }
+    
+    .M {
+       
+        font-size: 1.4em;
+     
+    }
+
+    .btn-cv {
+        margin-left: 7em;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 382px) and (max-width: 429.98px) {
+
+    /*- Menu Navegação --*/
+    .navbar-brand {
+        margin-left: 1em;
+    }
+
+    .navbar-toggler {
+        margin-right:  1em;
+    }
+
+
+    .nav-link {
+        text-align: center;
+        text-transform: uppercase;
+        
+        
+    }
+
+    .navbar-nav {
+        padding-bottom: 20px;
+    }
+
+
+    .btn-cadastrar {
+        font-size: 0.7em;
+        
+    }
+
+    .form-inline {
+        margin-left: 5em;
+    }
+
+    /*------Capa ------*/
+
+    .texto-capa {
+        width: 100%;
+        margin-left: 0em;
+        margin-top: 0em;
+        margin-bottom: 3em;
+    }
+
+    
+    h1 {
+        font-size: 2.2em;
+        line-height: 1.5em;
+        text-align: center;
+        
+    }
+    
+    h2 {
+       
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 0.7em;
+        text-align: center;
+    }
+    
+    .M {
+       
+        font-size: 1.4em;
+        
+    }
+
+    .btn-cv {
+        margin-left: 9em;
+        margin-top: 1em;
+    }
+
+      
 }
 
 @media (min-width: 430px) and (max-width: 499.98px) {
@@ -394,10 +597,46 @@ h3 {
         text-align: center;
     }
 
-    /*------------*/
+     /*------Capa ------*/
+
+     .texto-capa {
+        width: 100%;
+        margin-left: 0em;
+        margin-top: 0em;
+        margin-bottom: 3em;
+    }
+
+    
+    h1 {
+       
+        font-size: 3em;
+        line-height: 1.5em;
+        text-align: center;
+        
+    }
+    
+    h2 {
+       
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 0.9em;
+        text-align: center;
+    }
+    
+    .M {
+        font-size: 1.4em;  
+    }
+
+    .btn-cv {
+        margin-left: 10em;
+        margin-top: 1em;
+    }
 }
 
-@media (min-width: 500px) and (max-width: 767px) {
+@media (min-width: 500px) and (max-width: 767.98px) {
 
     /*- Menu Navegação --*/
       
@@ -432,24 +671,155 @@ h3 {
         
     }
 
-    
-   
+     /*------Capa ------*/
+
+     .texto-capa {
+        width: 100%;
+        margin-left: 0em;
+        margin-top: 0em;
+        margin-bottom: 3em;
+    }
 
     
+    h1 {
+        font-size: 3em;
+        line-height: 1.5em;
+        text-align: center;
+        
+    }
     
+    h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 0.9em; 
+        text-align: center;
+    }
+    
+    .M {
+        font-size: 1.4em;   
+    }
 
-   
-
-    
-
-    
-    
-   
-   
-
-    
-
-    
+    .btn-cv {
+        margin-left: 14em;
+        margin-top: 1em;
+    }
 
     /*------------*/
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    
+
+     /*------Capa ------*/
+
+       .texto-capa {
+        width: 60%;
+        margin-left: 5em;
+        margin-top: 0em;
+        margin-bottom: 3em;
+    }
+
+    
+    h1 {
+       font-family: 'Libre Baskerville', serif;
+       font-size: 1.6em;
+       line-height: 1.5em;
+          
+    }
+    
+    h2 {
+        font-size: 1.6em;
+    }
+    
+    h3 {
+        font-size: 0.7em;
+    }
+
+    .btn-cv {
+        font-size: 0.7em;
+    }
+    
+ 
+    
+  
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    
+
+    /*------Capa ------*/
+
+      .texto-capa {
+       width: 100%;
+       margin-left: 5em;
+       margin-top: 0em;
+       margin-bottom: 8em;
+   }
+
+   
+   h1 {
+     
+      font-size: 2.7em;
+      line-height: 1.5em;
+         
+   }
+   
+   h2 {
+       font-size: 2em;
+   }
+   
+   h3 {
+       font-size: 1em;
+   }
+
+   .btn-cv {
+       font-size: 1em;
+   }
+   
+
+   
+ 
+}
+
+@media (min-width: 1200px) and (max-width: 1399px)  {
+
+    
+
+    /*------Capa ------*/
+
+      .texto-capa {
+       width: 100%;
+       margin-left: 5em;
+       margin-top: 0em;
+       margin-bottom: 10em;
+   }
+
+   
+   h1 {
+     
+      font-size: 3em;
+      line-height: 1.5em;
+         
+   }
+   
+   h2 {
+       font-size: 2em;
+   }
+   
+   h3 {
+       font-size: 1em;
+   }
+
+   .btn-cv {
+       font-size: 1em;
+   }
+   
+
+   
+ 
 }
