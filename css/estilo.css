@@ -12,7 +12,7 @@
 
 /*-----font-family: 'Libre Baskerville', serif;-----*/
 
-@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 
 /*----- font-family: 'Tangerine', cursive;------*/
 
@@ -215,13 +215,22 @@ h1 {
     line-height: 1.2em;
 }
 
-h2{
+h2 {
     font-family: 'Libre Baskerville', serif;
+    color: var(--cor-principal);
+    text-shadow: 1px 1px 1px 0.5px #000;
+}
+
+h3 {
+    font-size: 0.9em;
+    color: rgb(139, 139, 139);
 }
 
 .M {
-    font-family: 'Tangerine', cursive;
+    font-family: 'Berkshire Swash', cursive;
     color: var(--cor-principal);
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px 0.5px #000;
 }
 
 @media (min-width: 280px) and (max-width: 319.98px) {
