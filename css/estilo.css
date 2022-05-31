@@ -1,9 +1,20 @@
 :root {
     --cor-principal: rgba(255, 20, 71, 0.829);
     --cor-secundaria: rgba(0, 255, 255, 0.856);
+    --cor-conteudo: #541DA1;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+/*--- font-family: 'Libre Baskerville', serif; -----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+/*-----font-family: 'Libre Baskerville', serif;-----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+/*----- font-family: 'Tangerine', cursive;------*/
 
 body {
     margin: 0px;
@@ -191,6 +202,27 @@ a {
 
 }
 
+/*------ capa -------*/
+.texto-capa {
+    width: 70%;
+    margin-left: 5em;
+    margin-bottom: 10em;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3em;
+    line-height: 1.2em;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.M {
+    font-family: 'Tangerine', cursive;
+    color: var(--cor-principal);
+}
 
 @media (min-width: 280px) and (max-width: 319.98px) {
 
@@ -226,6 +258,9 @@ a {
     }
 
     /*------------*/
+
+
+   
 }
 
 @media (min-width: 320px) and (max-width: 359.98px) {
