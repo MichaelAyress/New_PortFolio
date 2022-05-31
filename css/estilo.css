@@ -259,6 +259,70 @@ h3 {
     
     
 }
+/* Apresentação --*/
+
+#apresentacao {
+    background-color: #131313;
+}
+
+/*---Imagem Perfilamento ---*/
+
+.img-perfil {
+    padding: 50px;
+}
+
+.img-wrapper {
+    max-width: 500px;
+    position: relative;
+}
+
+.img-wrapper img {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.img-wrapper::before{
+    content: '';
+    position: absolute;
+    inset: 15px;
+    border: 6px solid #131313;
+    border-top-color: var(--cor-principal);
+    border-bottom-color: var(--cor-secundaria);
+    border-radius: 50%;
+   /* z-index:-1; */
+    animation:spin 3s linear infinite;
+}
+
+@keyframes spin {
+    to{ transform:rotate(360deg);}
+}
+
+/*--- Texto ---*/
+
+.p-perfil {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.texto-perfil {
+    color: var(--cor-secundaria);
+}
+
+.linguagens {
+    color: var(--cor-claro3);
+}
+
+.img-linguagens {
+    width: 3em;
+    padding: 0.4em;
+}
+
+.container-linguagens {
+    margin-left: 10em;
+}
+
 
 @media (min-width: 280px) and (max-width: 319.98px) {
 
@@ -333,8 +397,8 @@ h3 {
         margin-top: 1em;
     }
 
+ /*----- Apresentação -----*/
 
-   
 }
 
 @media (min-width: 320px) and (max-width: 359.98px) {
@@ -819,7 +883,7 @@ h3 {
        font-size: 1em;
    }
    
+}
 
    
  
-}
