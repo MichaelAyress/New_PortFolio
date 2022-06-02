@@ -27,8 +27,9 @@
 /*----- font-family: 'Tiro Tamil', serif;   #721D80       ------*/
 
 body {
-    margin: 0px;
-    padding: 0px;
+    background: linear-gradient(60deg, #000, #6136BF);
+    font-family: helvetica,Arial,sans-serif;
+  
 }
 
 * {
@@ -50,17 +51,6 @@ html, body, #home {
      overflow-x: hidden;
 }
 
-
-
-
-body {
-    background: 
-                linear-gradient(60deg, #000, #6136BF);
-                    
-    
-    font-family: helvetica,Arial,sans-serif;
-                               
-}
 
 ul {
     list-style: none;
@@ -365,12 +355,15 @@ h3 {
     padding: 15px 0px;
 }
 
+
 .icon-lista {
     color: var(--cor-principal);
-    font-size: 2em;
-    margin-left: 3em;
-    
-}
+    font-size: 1.8em;
+    margin-left: -2.2em;
+    padding-right: 1em;
+} 
+
+
 
 .container-Skills {
     padding-top: 10em;
