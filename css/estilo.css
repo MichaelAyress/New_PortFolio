@@ -343,7 +343,9 @@ h3 {
 
 #Skills {
     background-color: #131313;
+    
 }
+
 
 .p-lista {
     font-style: italic;
@@ -358,7 +360,7 @@ h3 {
 
 .icon-lista {
     color: var(--cor-principal);
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin-left: -2.2em;
     padding-right: 1em;
 } 
@@ -367,6 +369,8 @@ h3 {
 
 .container-Skills {
     padding-top: 10em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-Skills {
@@ -485,7 +489,7 @@ h3 {
 }
 
 .icon-lista {
-    font-size: 2em;
+    font-size: 1.2em;
    
 }
 
@@ -609,7 +613,7 @@ h3 {
  }
  
  .icon-lista {
-     font-size: 2em;
+     font-size: 1.2em;
     
  }
  
@@ -732,7 +736,7 @@ h3 {
     }
     
     .icon-lista {
-        font-size: 2em;
+        font-size: 1.5em;
         
     }
     
@@ -854,7 +858,7 @@ h3 {
     }
     
     .icon-lista {
-        font-size: 2em;
+        font-size: 1.5em;
         
     }
     
@@ -964,6 +968,11 @@ h3 {
     }
 
     /*--- Habulidades -----*/
+    
+    #Skills {
+        padding-left: 2em;
+    }
+
 
     .container-Skills {
         padding-top: 5em;
@@ -979,8 +988,9 @@ h3 {
     }
     
     .icon-lista {
-        font-size: 2em;
-        padding-left: 2em;
+        font-size: 1.5em;
+        padding-left: 0em;
+        
         
     }
     
@@ -1098,10 +1108,14 @@ h3 {
         margin-left: 0em;
         
     }
+
+    #Skills {
+        padding-left: 2.6em;
+    }
     
     .icon-lista {
         font-size: 2em;
-        padding-left: 3em;
+        padding-left: 0em;
         
     }
     
@@ -1183,7 +1197,7 @@ h3 {
     
     .icon-lista {
         font-size: 2em;
-        margin-left: 0.5em;
+       
         
     }
     
@@ -1266,7 +1280,7 @@ h3 {
     
     .icon-lista {
         font-size: 2em;
-        margin-left: 0.5em;
+        
         
     }
     
