@@ -221,6 +221,7 @@ h1 {
     font-weight: 700;
     color: var(--cor-claro2);
     
+    
 }
 
 h2 {
@@ -369,12 +370,102 @@ h3 {
 
 .container-Skills {
     padding-top: 10em;
+    padding-bottom: 10em;
     margin-left: auto;
     margin-right: auto;
 }
 
 .img-Skills {
     padding-top: 5em;
+}
+
+/*----- Projetos ----*/
+
+.titulo-projeto {
+
+    font-size: 3.3em;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    color: var(--cor-claro2);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.89);
+
+}
+
+#Projetos {
+    background-color: #1d2026;
+    background-image: 
+        radial-gradient(at 50% 40%, hsl(258.83, 56.00000000000001%, 48%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(220.00, 13%, 13%) 0, transparent 55%);
+}
+
+.text-center {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+
+.estilo-bloco {
+    backdrop-filter: blur(25px) saturate(90%);
+    -webkit-backdrop-filter: blur(25px) saturate(90%);
+    background-color: rgba(17, 25, 40, 0.41);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-bottom: 5em;
+}
+
+.titulo-card {
+    margin: 0px 1.4em;
+    
+}
+
+
+.estilo-bloco h2 {
+    color: var(--cor-claro3);
+    font-size: 1.2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.226);
+    
+    
+}
+
+.container-tec{
+    margin: 0 3em;
+    padding-top: 2em;
+}
+
+.linguagens {
+    font-size: 2em;
+    
+}
+
+.linguagens-color {
+    color: var(--cor-claro);
+}
+
+.estilo-bloco h3 {
+    color: rgba(255, 255, 255, 0.726);
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--cor-claro3);
+    font-family: Roboto, sans-serif;
+    
+}
+
+.btn-custom {
+    color: var(--cor-claro3);
+    background-color: var(--cor-principal);
+    padding: 0.5em 5em;
+    border-radius: 1%;
+    
+}
+
+.btn-custom:hover {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    
 }
 
 
@@ -479,6 +570,8 @@ h3 {
 .container-Skills {
    padding-top: 5em;
 }
+
+
 
 .p-lista {
     text-align: left;
