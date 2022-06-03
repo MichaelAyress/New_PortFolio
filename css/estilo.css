@@ -27,7 +27,7 @@
 /*----- font-family: 'Tiro Tamil', serif;   #721D80       ------*/
 
 body {
-    background: linear-gradient(60deg, #000, #6136BF);
+    background: linear-gradient(60deg, rgb(0, 0, 0), #6136bf);
     font-family: helvetica,Arial,sans-serif;
   
 }
@@ -392,10 +392,12 @@ h3 {
 }
 
 #Projetos {
-    background-color: #1d2026;
+
+   
+   /* background-color: #1d2026;
     background-image: 
         radial-gradient(at 50% 40%, hsl(258.83, 56.00000000000001%, 48%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(220.00, 13%, 13%) 0, transparent 55%);
+        radial-gradient(at 82% 65%, hsl(220.00, 13%, 13%) 0, transparent 55%); */
 }
 
 .text-center {
