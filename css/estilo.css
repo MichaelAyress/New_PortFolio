@@ -27,8 +27,19 @@
 /*----- font-family: 'Tiro Tamil', serif;   #721D80       ------*/
 
 body {
-    background: linear-gradient(60deg, rgb(0, 0, 0), #6136bf),
-                url(../img/ruido.png);
+
+    background: rgb(23,13,43);
+background: linear-gradient(90deg, rgba(23,13,43,1) 0%, rgba(33,17,66,1) 25%, rgba(63,34,125,1) 44%, rgba(81,44,159,1) 61%, rgba(97,54,191,1) 82%);
+
+  /*
+    background: -webkit-linear-gradient(left, #000000, #6136bf);
+    background: -moz-linear-gradient(left, #000000, #6136bf);
+    background: -ms-linear-gradient(left, #000000, #6136bf);
+    background: -o-linear-gradient(left, #000000, #6136bf);
+    background: linear-gradient(to right, #000000, #6136bf);  */
+
+    /*
+    background: linear-gradient(60deg, rgb(0, 0, 0), #6136bf); */
                 font-family: helvetica,Arial,sans-serif;
   
 }
@@ -269,7 +280,8 @@ h3 {
 /* Apresentação --*/
 
 #apresentacao {
-    background-color: #131313; 
+
+   background-color: #131313;  
    
 }
 
@@ -484,6 +496,26 @@ h3 {
 
 .img-projetos {
     width: 70%;
+}
+
+/*---- Footer ---- */
+
+#rodape {
+    background-color:  #131313;
+}
+
+.container-rodape {
+    padding: 4em 0em 1em;
+}
+
+.social-footer {
+    font-size: 2.2em;
+    padding: 0em 0.2em 1em;
+}
+
+.copy {
+    color: var(--cor-claro);
+    font-size: 0.8em;
 }
 
 
