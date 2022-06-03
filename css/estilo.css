@@ -220,13 +220,8 @@ a {
 
 }
 
-/*------ capa -------*/
-.texto-capa {
-    width: 70%;
-    margin-left: 5em;
-    margin-bottom: 0em;
-}
-
+/* --- Textos --- */
+/*
 h1 {
     font-size: 3.3em;
     font-family: Roboto,sans-serif;
@@ -235,7 +230,7 @@ h1 {
     
     
 }
-
+*/
 h2 {
     font-family: Roboto,sans-serif;
     color: var(--cor-h2);
@@ -249,30 +244,69 @@ h3 {
     font-family: Roboto,sans-serif;
 }
 
-.M {
+/*------ capa -------*/
 
-    background-image: url(../img/codego.png);
-    background-clip:text;
-    -webkit-background-clip:text;
-    color: transparent;
-    font-size: 1.6em;
-    font-family: 'Black Ops One', cursive;
-}
-
-.btn-cv {
-    color: #fff;
-    background-color: var(--cor-conteudo);
-    margin-top: 10px;
-    font-size: 1.2em;
-}
-
-.btn-cv:hover {
-    border: 1px solid var(--cor-secundaria);
-    color: #fff;
-    background: var(--cor-secundaria);
-    
-    
-}
+:root {
+    --offset: 6px;
+  }
+  
+  
+  h1 {
+    width: 100%;
+    font-size: 4em;
+    font-family: Helvetica;
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  
+  .mask {
+    height: 130px;
+    position: relative;
+    overflow: hidden;
+    margin-top: var(--offset);
+    margin-bottom: 200px;
+  }
+  
+  .mask span {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 55px;
+    padding-bottom: var(--offset);
+    font-size: 52px;
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+  }
+  
+  .mask span[data-show] {
+    transform: translateY(-100%);
+    transition: 0.5s transform ease-in-out;
+  }
+  
+  .mask span[data-up] {
+    transform: translateY(-200%);
+    transition: 0.5s transform ease-in-out;
+  }
+  
+  .mask span:nth-child(1) {
+    background-image: linear-gradient(45deg, #0ecffe 50%, #07a6f1);
+  }
+  
+  .mask span:nth-child(2) {
+    background-image: linear-gradient(45deg, #18e198 50%, #0ec15d);
+  }
+  
+  .mask span:nth-child(3) {
+    background-image: linear-gradient(45deg, #8a7cfb 50%, #633e9c);
+  }
+  
+  .mask span:nth-child(4) {
+    background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
+  }
 
 .img-pc{
     margin-top: 3em;
@@ -517,6 +551,10 @@ h3 {
     color: var(--cor-claro);
     font-size: 0.8em;
 }
+
+
+
+
 
 
 
