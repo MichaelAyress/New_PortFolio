@@ -413,6 +413,7 @@ h3 {
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
     margin-bottom: 5em;
+    
 }
 
 .titulo-card {
@@ -594,6 +595,19 @@ h3 {
     padding-top: 1em;
 }
 
+/*----- Projetos ---*/
+
+.linguagens {
+    display: none;
+    
+}
+
+.btn-custom {
+    padding: 0.5em 3em;
+    border-radius: 2%;
+    
+}
+
 
 
 }
@@ -717,6 +731,20 @@ h3 {
  .img-Skills {
      padding-top: 1em;
  }
+
+ /*----- Projetos ---*/
+
+.linguagens {
+    display: none;
+    
+}
+
+.btn-custom {
+    padding: 0.5em 3em;
+    border-radius: 2%;
+    
+}
+
 }
 
 @media (min-width: 360px) and (max-width: 381.98px) {
@@ -841,6 +869,12 @@ h3 {
         padding-top: 1em;
     }
 
+    /*----- Projetos ---*/
+
+    .linguagens {
+        display: none;  
+    }
+
 }
 
 @media (min-width: 382px) and (max-width: 429.98px) {
@@ -961,6 +995,12 @@ h3 {
     
     .img-Skills {
         padding-top: 1em;
+    }
+
+    /*---- Projetos ---*/
+
+    .linguagens {
+        display: none;  
     }
 
       
@@ -1094,6 +1134,12 @@ h3 {
     .img-Skills {
         padding-top: 1em;
     }
+
+      /*---- Projetos ---*/
+
+      .linguagens {
+        display: none;  
+    }
 }
 
 @media (min-width: 500px) and (max-width: 767.98px) {
@@ -1219,6 +1265,12 @@ h3 {
     .img-Skills {
         padding-top: 1em;
     }
+
+      /*---- Projetos ---*/
+
+      .linguagens {
+        display: none;  
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1300,6 +1352,48 @@ h3 {
     
     .img-Skills {
         padding-top: 5em;
+    }
+
+   /*---- Projetos ---*/
+
+
+    .estilo-bloco {
+        margin-bottom: 5em; 
+    }
+
+    .titulo-card {
+        margin: 0em 0.6em;
+        font-size: 0.9em;
+        
+    }
+
+
+    .estilo-bloco h2 {
+        font-size: 1.2em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+    }
+
+    .container-tec{
+        padding-top: 0em;
+    }
+
+    .sub-titulo {
+        display: none;
+    }
+
+    .estilo-bloco h3 { 
+        font-size: 0.7em; 
+    }
+
+    .btn-custom {
+        padding: 0.2em 0.6em;
+        border-radius: 3px;
+        
+    }
+
+    .linguagens {
+            display: none;  
     }
     
 }
@@ -1384,7 +1478,23 @@ h3 {
     .img-Skills {
         padding-top: 5em;
     }
-   
+
+     /*---- Projetos ---*/
+ 
+    .estilo-bloco h3 { 
+        font-size: 0.7em; 
+    }
+
+    .btn-custom {
+        padding: 0.2em 0.6em;
+        border-radius: 3px;
+        
+    }
+
+    .container-tec {
+        margin: 0px;
+        padding: 10px 30px;
+    }
 
    
  
@@ -1422,6 +1532,16 @@ h3 {
    .btn-cv {
        font-size: 1em;
    }
+
+    /*---- Projetos ---*/
+ 
+    .btn-custom {
+        padding: 0.5em 3.5em;
+        border-radius: 3px;
+        
+    }
+
+
    
 }
 
