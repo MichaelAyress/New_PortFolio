@@ -196,6 +196,7 @@ a {
 
 #home {
     margin-bottom: 10%;
+    
 }
 
 .btn-cadastrar {
@@ -238,11 +239,6 @@ h2 {
     font-size: 2.3em;
 }
 
-.btn-contato {
-    position: absolute;
-    left: 19em;
-    bottom: 25em;
-}
 
 h3 {
     font-size: 1em;
@@ -267,6 +263,12 @@ h3 {
     --offset: 6px;
   }
   
+  .alinhando-sub {
+    position: absolute;
+    left: 19em;
+    bottom: 25em
+ }
+ 
   
   h1 {
     width: 100%;
@@ -608,45 +610,53 @@ h3 {
         margin-left: 1em;
     }
 
-    /*------Capa ------*/
+    /*---Capa ---*/
 
-    .texto-capa {
-        width: 100%;
-        margin-left: 0em;
-        margin-top: 2em;
-        margin-bottom: 3em;
-    }
-    
-    h1 {
-      
-        font-size: 2.2em;
-        line-height: 1.5em;
-        text-align: center;
-        
-    }
-    
-    h2 {
-      
-        font-size: 1.5em;
-        text-align: center;
-    }
-    
-    h3 {
-        font-size: 0.7em;
-      
-        text-align: center;
-    }
-    
-    .M {
-       
-        font-size: 1.4em;
-      
-    }
+  
+  .alinhando-sub {
+    display: none;
+ }
 
-    .btn-cv {
-        margin-left: 3.5em;
-        margin-top: 1em;
-    }
+ .alinhando-pc {
+     text-align: center;
+
+ }
+
+ h3 {
+     font-size: 0.7em;
+ }
+
+ .btn-cv {
+     font-size: 0.7em;
+ }
+
+ .img-pc {
+     margin-top: 0em;
+     padding-bottom: 0em;
+ }
+ 
+  
+  h1 {
+    text-align: left;
+    width: 100%;
+    font-size: 3em;
+  }
+  
+  .mask {
+    padding-top: 5em;
+    height: 230px;
+    margin-bottom: 1em;
+  }
+  
+  .mask span {
+    top: 40px;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+  }
+
+   
+
 
  /*----- Apresentação -----*/
 
@@ -710,7 +720,31 @@ h3 {
     
 }
 
+.img-projetos {
+    width: 110%;
+}
 
+/*-- Footer --*/
+
+.container-rodape {
+    padding: 0em;
+}
+
+.social-footer {
+    font-size: 1.3em;
+}
+
+.endereco-footer {
+    font-size: 0.8em;
+}
+
+.cep {
+    font-size: 0.8em;
+}
+
+.copy {
+    font-size: 0.7em;
+}
 
 }
 
@@ -747,45 +781,50 @@ h3 {
         margin-left: 3em;
     }
 
-     /*------Capa ------*/
+     /*---Capa ---*/
 
-     .texto-capa {
-        width: 100%;
-        margin-left: 0em;
-        margin-top: 2em;
-        margin-bottom: 0.5em;
-    }
-    
-    h1 {
-       
-        font-size: 2.2em;
-        line-height: 1.5em;
-        text-align: center;
-        
-    }
-    
-    h2 {
-      
-        font-size: 1.5em;
-        text-align: center;
-    }
-    
-    h3 {
-        font-size: 0.7em;
-      
-        text-align: center;
-    }
-    
-    .M {
-      
-        font-size: 1.4em;
-      
-    }
+  
+  .alinhando-sub {
+    display: none;
+ }
 
-    .btn-cv {
-        margin-left: 6em;
-        margin-top: 1em;
-    }
+ .alinhando-pc {
+     text-align: center;
+
+ }
+
+ h3 {
+     font-size: 0.7em;
+ }
+
+ .btn-cv {
+     font-size: 0.7em;
+ }
+
+ .img-pc {
+     margin-top: 0em;
+     padding-bottom: 0em;
+ }
+ 
+  
+  h1 {
+    text-align: left;
+    width: 100%;
+    font-size: 3em;
+  }
+  
+  .mask {
+    padding-top: 5em;
+    height: 230px;
+    margin-bottom: 1em;
+  }
+  
+  .mask span {
+    top: 40px;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+  }
 
      /*----- Apresentação -----*/
 
@@ -884,44 +923,50 @@ h3 {
 
       /*------Capa ------*/
 
-      .texto-capa {
-        width: 100%;
-        margin-left: 0em;
-        margin-top: 0em;
-        margin-bottom: 3em;
-    }
+      /*---Capa ---*/
 
-    
-    h1 {
-      
-        font-size: 2.2em;
-        line-height: 1.5em;
-        text-align: center;
-        
-    }
-    
-    h2 {
-      
-        font-size: 1.5em;
-        text-align: center;
-    }
-    
-    h3 {
-        font-size: 0.7em;
-      
-        text-align: center;
-    }
-    
-    .M {
-       
-        font-size: 1.4em;
-     
-    }
+  
+  .alinhando-sub {
+    display: none;
+ }
 
-    .btn-cv {
-        margin-left: 7em;
-        margin-top: 1em;
-    }
+ .alinhando-pc {
+     text-align: center;
+
+ }
+
+ h3 {
+     font-size: 0.7em;
+ }
+
+ .btn-cv {
+     font-size: 0.7em;
+ }
+
+ .img-pc {
+     margin-top: 0em;
+     padding-bottom: 0em;
+ }
+ 
+  
+  h1 {
+    text-align: left;
+    width: 100%;
+    font-size: 3em;
+  }
+  
+  .mask {
+    padding-top: 5em;
+    height: 230px;
+    margin-bottom: 1em;
+  }
+  
+  .mask span {
+    top: 40px;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+  }
 
      /*----- Apresentação -----*/
 
@@ -1012,44 +1057,50 @@ h3 {
         margin-left: 5em;
     }
 
-    /*------Capa ------*/
+   /*---Capa ---*/
 
-    .texto-capa {
-        width: 100%;
-        margin-left: 0em;
-        margin-top: 0em;
-        margin-bottom: 3em;
-    }
+  
+  .alinhando-sub {
+    display: none;
+ }
 
-    
-    h1 {
-        font-size: 2.2em;
-        line-height: 1.5em;
-        text-align: center;
-        
-    }
-    
-    h2 {
-       
-        font-size: 1.5em;
-        text-align: center;
-    }
-    
-    h3 {
-        font-size: 0.7em;
-        text-align: center;
-    }
-    
-    .M {
-       
-        font-size: 1.4em;
-        
-    }
+ .alinhando-pc {
+     text-align: center;
 
-    .btn-cv {
-        margin-left: 9em;
-        margin-top: 1em;
-    }
+ }
+
+ h3 {
+     font-size: 0.7em;
+ }
+
+ .btn-cv {
+     font-size: 0.7em;
+ }
+
+ .img-pc {
+     margin-top: 0em;
+     padding-bottom: 0em;
+ }
+ 
+  
+  h1 {
+    text-align: left;
+    width: 100%;
+    font-size: 3em;
+  }
+  
+  .mask {
+    padding-top: 5em;
+    height: 230px;
+    margin-bottom: 1em;
+  }
+  
+  .mask span {
+    top: 40px;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+  }
 
      /*----- Apresentação -----*/
 
@@ -1144,43 +1195,50 @@ h3 {
         text-align: center;
     }
 
-     /*------Capa ------*/
+    /*---Capa ---*/
 
-     .texto-capa {
-        width: 100%;
-        margin-left: 0em;
-        margin-top: 5em;
-        margin-bottom: 3em;
-    }
+  
+  .alinhando-sub {
+    display: none;
+ }
 
-    
-    h1 {
-       
-        font-size: 3em;
-        line-height: 1.5em;
-        text-align: center;
-        
-    }
-    
-    h2 {
-       
-        font-size: 2em;
-        text-align: center;
-    }
-    
-    h3 {
-        font-size: 0.9em;
-        text-align: center;
-    }
-    
-    .M {
-        font-size: 1.4em;  
-    }
+ .alinhando-pc {
+     text-align: center;
 
-    .btn-cv {
-        margin-left: 8em;
-        margin-top: 1em;
-    }
+ }
+
+ h3 {
+     font-size: 0.7em;
+ }
+
+ .btn-cv {
+     font-size: 0.7em;
+ }
+
+ .img-pc {
+     margin-top: 0em;
+     padding-bottom: 0em;
+ }
+ 
+  
+  h1 {
+    text-align: left;
+    width: 100%;
+    font-size: 3em;
+  }
+  
+  .mask {
+    padding-top: 5em;
+    height: 230px;
+    margin-bottom: 1em;
+  }
+  
+  .mask span {
+    top: 40px;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+  }
 
      /*----- Apresentação -----*/
 
@@ -1281,39 +1339,50 @@ h3 {
 
      /*------Capa ------*/
 
-     .texto-capa {
-        width: 100%;
-        margin-left: 0em;
-        margin-top: 0em;
-        margin-bottom: 3em;
-    }
+     /*---Capa ---*/
 
-    
-    h1 {
-        font-size: 3em;
-        line-height: 1.5em;
-        text-align: center;
-        
-    }
-    
-    h2 {
-        font-size: 2em;
-        text-align: center;
-    }
-    
-    h3 {
-        font-size: 0.9em; 
-        text-align: center;
-    }
-    
-    .M {
-        font-size: 1.4em;   
-    }
+  
+  .alinhando-sub {
+    display: none;
+ }
 
-    .btn-cv {
-        margin-left: 10em;
-        margin-top: 1em;
-    }
+ .alinhando-pc {
+     text-align: center;
+
+ }
+
+ h3 {
+     font-size: 0.7em;
+ }
+
+ .btn-cv {
+     font-size: 0.7em;
+ }
+
+ .img-pc {
+     margin-top: 0em;
+     padding-bottom: 0em;
+ }
+ 
+  
+  h1 {
+    text-align: left;
+    width: 100%;
+    font-size: 3em;
+  }
+  
+  .mask {
+    padding-top: 5em;
+    height: 230px;
+    margin-bottom: 1em;
+  }
+  
+  .mask span {
+    top: 40px;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+  }
 
     /*----- Apresentação -----*/
 
@@ -1643,8 +1712,19 @@ h3 {
         
     }
 
+    .alinhamento-pc {
+        display: block;
+    }
+
 
    
+}
+
+@media (min-width: 1399px) {
+
+    .alinhando-pc {
+        display: none;
+    }
 }
 
    
