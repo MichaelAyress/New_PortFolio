@@ -259,20 +259,18 @@ h3 {
 
 /*------ capa -------*/
 
+.alinhando-pc {
+    display: block;
+}
+
 :root {
     --offset: 6px;
   }
   
-  .alinhando-sub {
-    position: absolute;
-    left: 19em;
-    bottom: 25em
- }
- 
   
   h1 {
     width: 100%;
-    font-size: 4em;
+    font-size: 5.5em;
     font-family: Helvetica;
     line-height: 1.06;
     letter-spacing: -0.02em;
@@ -280,7 +278,7 @@ h3 {
   }
   
   .mask {
-    height: 130px;
+    height: 250px;
     position: relative;
     overflow: hidden;
     margin-top: var(--offset);
@@ -291,9 +289,9 @@ h3 {
     display: block;
     box-sizing: border-box;
     position: absolute;
-    top: 55px;
+    top: 52px;
     padding-bottom: var(--offset);
-    font-size: 52px;
+    font-size: 50px;
     background-size: 100% 100%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -548,7 +546,8 @@ h3 {
 }
 
 .img-projetos {
-    width: 70%;
+    width: 100%;
+    
 }
 
 /*---- Footer ---- */
@@ -612,10 +611,6 @@ h3 {
 
     /*---Capa ---*/
 
-  
-  .alinhando-sub {
-    display: none;
- }
 
  .alinhando-pc {
      text-align: center;
@@ -639,18 +634,18 @@ h3 {
   h1 {
     text-align: left;
     width: 100%;
-    font-size: 3em;
+    font-size: 2.5em;
   }
   
   .mask {
     padding-top: 5em;
-    height: 230px;
+    height: 200px;
     margin-bottom: 1em;
   }
   
   .mask span {
-    top: 40px;
-    font-size: 30px;
+    top: 35px;
+    font-size: 26px;
     width: 100%;
     text-align: left;
   }
@@ -667,7 +662,7 @@ h3 {
 
 .img-perfil {
     max-width: 700px;
-    right: 87%;
+    right: 75%;
     
 }
 
@@ -720,9 +715,6 @@ h3 {
     
 }
 
-.img-projetos {
-    width: 110%;
-}
 
 /*-- Footer --*/
 
@@ -783,10 +775,7 @@ h3 {
 
      /*---Capa ---*/
 
-  
-  .alinhando-sub {
-    display: none;
- }
+
 
  .alinhando-pc {
      text-align: center;
@@ -794,11 +783,11 @@ h3 {
  }
 
  h3 {
-     font-size: 0.7em;
+     font-size: 0.9em;
  }
 
  .btn-cv {
-     font-size: 0.7em;
+     font-size: 0.9em;
  }
 
  .img-pc {
@@ -807,24 +796,26 @@ h3 {
  }
  
   
-  h1 {
-    text-align: left;
-    width: 100%;
-    font-size: 3em;
-  }
-  
-  .mask {
-    padding-top: 5em;
-    height: 230px;
+ h1 {
+       
+    padding-left: 0.5em;
+    font-size: 2.5em;
+}
+
+.mask {
+    padding-top: 2em;
+    height: 160px;
     margin-bottom: 1em;
-  }
-  
-  .mask span {
+   
+}
+
+.mask span {
     top: 40px;
-    font-size: 30px;
-    width: 100%;
+    font-size: 27px;
+    width: 150%;
     text-align: left;
-  }
+}
+
 
      /*----- Apresentação -----*/
 
@@ -850,43 +841,49 @@ h3 {
 
     /*--- Habulidades -----*/
 
-.container-Skills {
-    padding-top: 5em;
- }
- 
- .p-lista {
-     text-align: left;
-     width: 100%;
-     font-size: 1.1em;
-     margin-left: 0em;
-     
- }
- 
- .icon-lista {
-     font-size: 1.2em;
+    .container-Skills {
+        padding-top: 5em;
+    }
     
- }
- 
- 
- 
- .img-Skills {
-     padding-top: 1em;
- }
-
- /*----- Projetos ---*/
-
-.linguagens {
-    display: none;
+    .p-lista {
+        text-align: left;
+        width: 100%;
+        font-size: 1.1em;
+        margin-left: 0em;
+        
+    }
     
-}
-
-.btn-custom {
-    padding: 0.5em 3em;
-    border-radius: 2%;
+    .icon-lista {
+        font-size: 1.2em;
+        
+    }
     
-}
+    
+    
+    .img-Skills {
+        padding-top: 1em;
+    }
 
-}
+    /*----- Projetos ---*/
+
+    .linguagens {
+        display: none;
+        
+    }
+
+    .btn-custom {
+        padding: 0.5em 3em;
+        border-radius: 2%;
+        
+    }
+
+    .Projetos-img{
+        width: 100%;
+        margin-right: 0em;
+        margin-right: 0px;
+    }
+
+    }
 
 @media (min-width: 360px) and (max-width: 381.98px) {
 
@@ -916,57 +913,49 @@ h3 {
         font-size: 0.7em;
         
     }
+     /*---Capa ---*/
 
-    .form-inline {
-        margin-left: 5em;
+
+
+    .alinhando-pc {
+        text-align: center;
+
     }
 
-      /*------Capa ------*/
+    h3 {
+        font-size: 0.9em;
+    }
 
-      /*---Capa ---*/
+    .btn-cv {
+        font-size: 0.9em;
+    }
 
-  
-  .alinhando-sub {
-    display: none;
- }
+    .img-pc {
+        margin-top: 0em;
+        padding-bottom: 0em;
+    }
+    
+    
+    h1 {
+       
+        padding-left: 0.5em;
+        font-size: 2.5em;
+    }
+    
+    .mask {
+        padding-top: 2em;
+        height: 160px;
+        margin-bottom: 1em;
+       
+    }
+    
+    .mask span {
+        top: 40px;
+        font-size: 27px;
+        width: 150%;
+        text-align: left;
+    }
 
- .alinhando-pc {
-     text-align: center;
-
- }
-
- h3 {
-     font-size: 0.7em;
- }
-
- .btn-cv {
-     font-size: 0.7em;
- }
-
- .img-pc {
-     margin-top: 0em;
-     padding-bottom: 0em;
- }
- 
-  
-  h1 {
-    text-align: left;
-    width: 100%;
-    font-size: 3em;
-  }
-  
-  .mask {
-    padding-top: 5em;
-    height: 230px;
-    margin-bottom: 1em;
-  }
-  
-  .mask span {
-    top: 40px;
-    font-size: 30px;
-    width: 100%;
-    text-align: left;
-  }
 
      /*----- Apresentação -----*/
 
@@ -1057,51 +1046,48 @@ h3 {
         margin-left: 5em;
     }
 
-   /*---Capa ---*/
+     /*---Capa ---*/
+
+    .alinhando-pc {
+        text-align: center;
+
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+
+    .btn-cv {
+        font-size: 0.9em;
+    }
+
+    .img-pc {
+        margin-top: 0em;
+        padding-bottom: 0em;
+    }
+    
+    
+    h1 {
+       
+        padding-left: 0.5em;
+        font-size: 2.5em;
+    }
+    
+    .mask {
+        padding-top: 2em;
+        height: 160px;
+        margin-bottom: 1em;
+       
+    }
+    
+    .mask span {
+        top: 40px;
+        font-size: 27px;
+        width: 150%;
+        text-align: left;
+    }
 
   
-  .alinhando-sub {
-    display: none;
- }
-
- .alinhando-pc {
-     text-align: center;
-
- }
-
- h3 {
-     font-size: 0.7em;
- }
-
- .btn-cv {
-     font-size: 0.7em;
- }
-
- .img-pc {
-     margin-top: 0em;
-     padding-bottom: 0em;
- }
- 
-  
-  h1 {
-    text-align: left;
-    width: 100%;
-    font-size: 3em;
-  }
-  
-  .mask {
-    padding-top: 5em;
-    height: 230px;
-    margin-bottom: 1em;
-  }
-  
-  .mask span {
-    top: 40px;
-    font-size: 30px;
-    width: 100%;
-    text-align: left;
-  }
-
      /*----- Apresentação -----*/
 
      .titulo {
@@ -1160,7 +1146,6 @@ h3 {
 }
 
 @media (min-width: 430px) and (max-width: 499.98px) {
-
     /*- Menu Navegação --*/
     
 
@@ -1198,48 +1183,47 @@ h3 {
     /*---Capa ---*/
 
   
-  .alinhando-sub {
-    display: none;
- }
 
- .alinhando-pc {
-     text-align: center;
+    .alinhando-pc {
+        text-align: center;
 
- }
+    }
 
- h3 {
-     font-size: 0.7em;
- }
+    h3 {
+        font-size: 1em;
+    }
 
- .btn-cv {
-     font-size: 0.7em;
- }
+    .btn-cv {
+        font-size: 1em;
+    }
 
- .img-pc {
-     margin-top: 0em;
-     padding-bottom: 0em;
- }
- 
+    .img-pc {
+        margin-top: 0em;
+        padding-bottom: 0em;
+    }
+    
+    
+    h1 {
+      
+        padding-left: 0.5em;
+        font-size: 3em;
+    }
+    
+    .mask {
+        padding-top: 2em;
+        height: 180px;
+        margin-bottom: 1em;
+       
+    }
+    
+    .mask span {
+        top: 40px;
+        font-size: 32px;
+        width: 150%;
+        text-align: left;
+    }
+
   
-  h1 {
-    text-align: left;
-    width: 100%;
-    font-size: 3em;
-  }
-  
-  .mask {
-    padding-top: 5em;
-    height: 230px;
-    margin-bottom: 1em;
-  }
-  
-  .mask span {
-    top: 40px;
-    font-size: 30px;
-    width: 100%;
-    text-align: left;
-  }
-
      /*----- Apresentação -----*/
 
      .titulo {
@@ -1337,52 +1321,47 @@ h3 {
         
     }
 
-     /*------Capa ------*/
-
      /*---Capa ---*/
 
-  
-  .alinhando-sub {
-    display: none;
- }
 
- .alinhando-pc {
-     text-align: center;
 
- }
+    .alinhando-pc {
+        text-align: center;
+    }
 
- h3 {
-     font-size: 0.7em;
- }
+    h3 {
+        font-size: 1em;
+    }
 
- .btn-cv {
-     font-size: 0.7em;
- }
+    .btn-cv {
+        font-size: 1em;
+    }
 
- .img-pc {
-     margin-top: 0em;
-     padding-bottom: 0em;
- }
- 
-  
-  h1 {
-    text-align: left;
-    width: 100%;
-    font-size: 3em;
-  }
-  
-  .mask {
-    padding-top: 5em;
-    height: 230px;
-    margin-bottom: 1em;
-  }
-  
-  .mask span {
-    top: 40px;
-    font-size: 30px;
-    width: 100%;
-    text-align: left;
-  }
+    .img-pc {
+        margin-top: 0em;
+        padding-bottom: 0em;
+        width: 100%;
+    }
+    
+    
+    h1 {
+        padding-left: 0.5em;
+        font-size: 3.1em;
+    }
+    
+    .mask {
+        padding-top: 2em;
+        height: 180px;
+        margin-bottom: 1em;
+       
+    }
+    
+    .mask span {
+        top: 40px;
+        font-size: 30px;
+        width: 150%;
+        text-align: left;
+    }
 
     /*----- Apresentação -----*/
 
@@ -1448,34 +1427,48 @@ h3 {
 
     
 
-     /*------Capa ------*/
+   .alinhando-pc {
+         display: none;
+   }
 
-       .texto-capa {
-        width: 60%;
-        margin-left: 5em;
-        margin-top: 0em;
-        margin-bottom: 3em;
-    }
 
-    
-    h1 {
-       font-family: 'Libre Baskerville', serif;
-       font-size: 1.6em;
-       line-height: 1.5em;
-          
-    }
-    
-    h2 {
-        font-size: 1.6em;
-    }
-    
-    h3 {
-        font-size: 0.7em;
-    }
 
-    .btn-cv {
-        font-size: 0.7em;
-    }
+   h3 {
+       font-size: 0.8em;
+   }
+
+   .btn-cv {
+       font-size: 0.9em;
+   }
+
+   .img-pc {
+       margin: 0px;
+       padding-bottom: 0em;
+       padding-top: 7em;
+   }
+   
+   
+   h1 {
+       padding-left: 1.5em;
+       text-align: left;
+       width:  100%;
+       font-size: 2.7em;
+   }
+   
+   .mask {
+       padding-top: 0em;
+       height: 142px;
+       margin-bottom: 1em;
+      
+   }
+   
+   .mask span {
+       top: 40px;
+       font-size: 30px;
+       width: 150%;
+       text-align: left;
+   }
+
 
     /*----- Apresentação -----*/
 
@@ -1575,32 +1568,46 @@ h3 {
 
     /*------Capa ------*/
 
-      .texto-capa {
-       width: 100%;
-       margin-left: 5em;
-       margin-top: 0em;
-       margin-bottom: 8em;
-   }
+    .alinhando-pc {
+        display: none;
+  }
 
-   
-   h1 {
+
+  h3 {
+      font-size: 0.8em;
+  }
+
+  .btn-cv {
+      font-size: 0.9em;
+  }
+
+  .img-pc {
+      margin: 0px;
+      padding-bottom: 0em;
+      padding-top: 9em;
+  }
+  
+  
+  h1 {
+      padding-left: 1.5em;
+      text-align: left;
+      width:  100%;
+      font-size: 4em;
+  }
+  
+  .mask {
+      padding-top: 0em;
+      height: 190px;
+      margin-bottom: 5em;
      
-      font-size: 2.7em;
-      line-height: 1.5em;
-         
-   }
-   
-   h2 {
-       font-size: 2em;
-   }
-   
-   h3 {
-       font-size: 1em;
-   }
-
-   .btn-cv {
-       font-size: 1em;
-   }
+  }
+  
+  .mask span {
+      top: 50px;
+      font-size: 40px;
+      width: 150%;
+      text-align: left;
+  }
 
    /*----- Apresentação -----*/
 
@@ -1677,32 +1684,47 @@ h3 {
 
     /*------Capa ------*/
 
-      .texto-capa {
-       width: 100%;
-       margin-left: 5em;
-       margin-top: 0em;
-       margin-bottom: 10em;
-   }
+    .alinhando-pc {
+        display: none;
+  }
 
-   
-   h1 {
+
+
+  h3 {
+      font-size: 0.8em;
+  }
+
+  .btn-cv {
+      font-size: 0.9em;
+  }
+
+  .img-pc {
+      margin: 0px;
+      padding-bottom: 0em;
+      padding-top: 8em;
+  }
+  
+  
+  h1 {
+      padding-left: 1.5em;
+      text-align: left;
+      width:  100%;
+      font-size: 4em;
+  }
+  
+  .mask {
+      padding-top: 0em;
+      height: 200px;
+      margin-bottom: 10em;
      
-      font-size: 3em;
-      line-height: 1.5em;
-         
-   }
-   
-   h2 {
-       font-size: 2em;
-   }
-   
-   h3 {
-       font-size: 1em;
-   }
-
-   .btn-cv {
-       font-size: 1em;
-   }
+  }
+  
+  .mask span {
+      top: 59px;
+      font-size: 45px;
+      width: 150%;
+      text-align: left;
+  }
 
     /*---- Projetos ---*/
  
