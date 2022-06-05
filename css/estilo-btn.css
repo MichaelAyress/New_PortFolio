@@ -1,0 +1,362 @@
+:root {
+    --cor-principal: #6136BF;
+    --cor-secundaria: #886FBF;
+    --cor-conteudo: #3A2073;
+    --cor-roxo-claro: #62508A;
+    --cor-h2: #721D80 ;
+    --cor-escura: #201240;
+    --cor-escura2:#1A0E33;
+    --cor-escura3:#1D2026;
+    --cor-cinza-claro:#BABCBF;
+    --cor-cinza-medio:#87898C;
+    --cor-cinza-escuro:#303740;
+    --cor-claro: #D0D7D9;
+    --cor-claro2: #C7CFD9;
+    --cor-claro3: #D5E5F2;
+}
+
+
+/*----------------------------------*/
+
+.effect-mouse {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+  /*  background: var(--cor-principal); */
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0;
+    
+    
+}
+
+.con-btns {
+    position: fixed;
+    left: 6em;
+    bottom: 6em;
+    display: flex;
+  /*  align-items: center; */
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 100;
+   
+    
+   
+    
+   
+}
+.con-btns button {
+    backdrop-filter: blur(25px) saturate(90%);
+    -webkit-backdrop-filter: blur(25px) saturate(90%);
+     background-color: rgba(17, 25, 40, 0.41);
+    border: 0px;
+  /*  background: var(--cor-principal); */
+  /* color: #fff; */
+    list-style:none;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
+    position: absolute;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    z-index: 1;
+    padding: 0px;
+    outline: none;
+    box-shadow: 0px 0px 12px 0px #6136bf2d;
+    cursor: pointer;
+}
+.con-btns button:not(.btn-menu) i {
+    font-size: 1.4rem;
+    transition: all .25s ease;
+    opacity: 0;
+   
+}
+
+.con-btns .btn-menu {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+ /* background: var(--cor-principal); */
+    outline: none;
+    border: 0px;
+    z-index: 100;
+    transition: all .25s ease !important;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 0px #6136bf00;
+    
+}
+
+.con-btns .btn-menu:hover {
+    transform: scale(1.2);
+}
+.con-btns .btn-menu i {
+    font-size: 2rem;
+    position: absolute;
+    transition: all .25s ease;
+    color: #fff;
+    
+    
+}
+.con-btns .btn-menu .bx-x {
+    opacity: 0;
+    transform: scale(0);
+   
+}
+#check {
+    position: absolute;
+    z-index: 200;
+    opacity: 0;
+    cursor: pointer;
+   
+}
+#check:checked ~ .btn-menu .bx-x {
+    opacity: 1;
+    transform: scale(1);
+}
+#check:checked ~ .btn-menu .bx-menu {
+    opacity: 0 !important; 
+    transform: rotate(180deg) scale(0);
+}
+#check:checked ~ button {
+    box-shadow: 0px 0px 15px 0px var(--cor-principal);
+    z-index: 200;
+}
+#check:checked ~ button i {
+    opacity: 1;
+}
+#check:checked ~ button:hover i {
+    transform: scale(1.2);
+}
+#check:checked ~ .btn-menu {
+    transform: scale(1.2);
+}
+
+#check:checked ~ .btn-menu .effect-mouse {
+    opacity: 1;
+}
+
+.con-btns .btn-5 {
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.320, 1.275).1s;
+}
+.con-btns .btn-6 {
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.320, 1.275).1s;
+}
+.con-btns .btn-1 {
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.320, 1.275).05s;
+}
+.con-btns .btn-2 {
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.320, 1.275).05s;
+}
+
+#check:checked ~ .btn-1 {
+    transform: translate(90px);
+}
+#check:checked ~ .btn-2 {
+    transform: translate(-90px);
+}
+#check:checked ~ .btn-3 {
+    transform: translate(0,-90px);
+}
+#check:checked ~ .btn-4 {
+    transform: translate(-65px,-65px);
+}
+#check:checked ~ .btn-5 {
+    transform: translate(65px,65px);
+}
+#check:checked ~ .btn-6 {
+    transform: translate(0,90px);
+}
+
+
+@media (min-width: 280px) and (max-width: 650.98px) {
+
+    .con-btns {
+        left: 1em;
+        bottom: 1em;
+       
+    }
+
+    .con-btns .btn-menu {
+        width: 20px;
+        height: 20px;
+        background: none;
+       
+    }
+
+    .bx-menu {
+        padding-top: 15px;  
+       
+    }
+
+   .con-btns .btn-menu i {
+      font-size: 1em;
+      
+    }
+
+
+    .con-btns button {
+        width: 40px;
+        height: 40px;
+        
+        
+    }
+
+    .con-btns button:not(.btn-menu) i {
+        font-size: 1em;
+        
+    }
+
+    #check:checked ~ .btn-1 {
+        transform: translate(50px);
+    }
+    #check:checked ~ .btn-2 {
+        transform: translate(0,-50px);
+    }
+    #check:checked ~ .btn-3 {
+        transform: translate(0,-150px);
+    }
+    #check:checked ~ .btn-4 {
+        transform: translate(0px,-100px);
+    }
+    #check:checked ~ .btn-5 {
+        transform: translate(100px);
+    }
+    #check:checked ~ .btn-6 {
+        transform: translate(150px);
+    }
+    
+
+    
+}
+
+
+@media (min-width: 650px) and (max-width: 767.98px) {
+
+    .con-btns {
+        left: 1.5em;
+        bottom: 1.5em;
+       
+    }
+
+    .con-btns .btn-menu {
+        width: 20px;
+        height: 20px;
+        background: none;
+       
+    }
+
+    .bx-menu {
+        padding-top: 15px;  
+       
+    }
+
+   .con-btns .btn-menu i {
+      font-size: 1em;
+      
+    }
+
+
+    .con-btns button {
+        width: 40px;
+        height: 40px;
+        
+        
+    }
+
+    .con-btns button:not(.btn-menu) i {
+        font-size: 1em;
+        
+    }
+
+    #check:checked ~ .btn-1 {
+        transform: translate(50px);
+    }
+    #check:checked ~ .btn-2 {
+        transform: translate(0,-50px);
+    }
+    #check:checked ~ .btn-3 {
+        transform: translate(0,-150px);
+    }
+    #check:checked ~ .btn-4 {
+        transform: translate(0px,-100px);
+    }
+    #check:checked ~ .btn-5 {
+        transform: translate(100px);
+    }
+    #check:checked ~ .btn-6 {
+        transform: translate(150px);
+    }
+    
+
+    
+}
+
+@media (min-width: 768px) and (max-width: 1620px) {
+
+    .con-btns {
+        left: 1.5em;
+        bottom: 1.5em;
+       
+    }
+
+    .con-btns .btn-menu {
+        width: 20px;
+        height: 20px;
+        background: none;
+       
+    }
+
+    .bx-menu {
+        padding-top: 15px;  
+       
+    }
+
+   .con-btns .btn-menu i {
+      font-size: 1em;
+      
+    }
+
+
+    .con-btns button {
+        width: 40px;
+        height: 40px;
+        
+        
+    }
+
+    .con-btns button:not(.btn-menu) i {
+        font-size: 1em;
+        
+    }
+
+    #check:checked ~ .btn-1 {
+        transform: translate(50px);
+    }
+    #check:checked ~ .btn-2 {
+        transform: translate(0,-50px);
+    }
+    #check:checked ~ .btn-3 {
+        transform: translate(0,-150px);
+    }
+    #check:checked ~ .btn-4 {
+        transform: translate(0px,-100px);
+    }
+    #check:checked ~ .btn-5 {
+        transform: translate(100px);
+    }
+    #check:checked ~ .btn-6 {
+        transform: translate(150px);
+    }
+    
+
+ 
+
+    
+}
