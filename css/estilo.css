@@ -232,12 +232,6 @@ h1 {
     
 }
 */
-h2 {
-    font-family: Roboto,sans-serif;
-    color: var(--cor-h2);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.89);
-    font-size: 2.3em;
-}
 
 
 h3 {

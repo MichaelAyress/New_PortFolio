@@ -12,6 +12,7 @@
     border-radius: 10px;
     transition: border 1s;
     position: relative;
+    
   }
   .border:hover {
     border: 1px solid #fff;
@@ -30,7 +31,7 @@
   .card {
     height: 379px;
     width: 300px;
-    background: #808080;
+    background: #acacac;
     border-radius: 10px;
     transition: background 0.8s;
     overflow: hidden;
@@ -40,14 +41,17 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    
   }
   .card1 {
     background: url("../img/Perfil-img.jpg") center center no-repeat;
     background-size: 420px;
+    
   }
   .card1:hover {
     background: url("../img/Perfil-img.jpg") left center no-repeat;
     background-size: 600px;
+    
   }
   .card1:hover h4 {
     opacity: 1;
