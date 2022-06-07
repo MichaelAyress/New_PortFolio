@@ -30,6 +30,13 @@
      <link rel="stylesheet" href="css/estilo-perfil.css">
      <!--Estilo Card-Apresentação-->
      <link rel="stylesheet" href="css/estilo-card.css">
+     <!--Estilo JS Menu-blob-->
+     <script src="menu.js" defer></script>
+     <link rel="stylesheet" href="css/menu-blob.css" />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
 
 </head>
@@ -38,16 +45,56 @@
     <header>
        <nav class="navbar navbar-expand-md navbar-light  navbar-transparente">
          <div class="container container-nav">
-                <a href="index.html" class="navbar-brand">
-                <i class="fa-solid fa-laptop-code logo"></i> <br>
-                 <span class="logo-name">Michael Ayres</span> <br>
-                 <span class="logo-portfolio">Portfolio</span>
-                   
-                </a>
+          <a href="index.html" class="navbar-brand">
+            <i class="fa-solid fa-laptop-code logo"></i> <br>
+             <span class="logo-name">Michael Ayres</span> <br>
+             <span class="logo-portfolio">Portfolio</span>
+               
+            </a>
+            
+            <!--Menu responsivo-->
 
+
+            <svg id="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill="#3A2073"
+                d="M43.2,-68.1C51.4,-61.9,50.4,-42.2,51.5,-27.2C52.7,-12.2,55.9,-1.8,57.9,10.7C59.8,23.3,60.4,38.1,54.4,49.6C48.3,61.1,35.5,69.2,23,68.4C10.4,67.6,-1.8,57.8,-13.7,51.9C-25.6,46.1,-37.2,44.1,-45,37.6C-52.7,31.1,-56.7,19.9,-56.6,9.2C-56.5,-1.5,-52.3,-11.8,-49.3,-24.2C-46.2,-36.6,-44.3,-51.3,-36.3,-57.6C-28.3,-63.8,-14.1,-61.7,1.7,-64.3C17.5,-66.9,35,-74.2,43.2,-68.1Z"
+                transform="translate(100 100)"
+              />
+            </svg>
+        
+            <div class="nav">
+              <a href="javascript:void(0);" class="icon" onClick="toggle()">
+                <i class="fa-solid fa-bars "></i>
+              </a>
+              <div id="links">
+                <a href="/" class="link-toogle">Sobre</a>
+                <a href="/" class="link-toogle">Projetos</a>
+                <a href="/" class="link-toogle">Habilidades</a>
+                
+                <button class="btn-dowload">
+                  <div>
+                    <span>
+                      <p>Curricúlo</p><i class="fa-solid fa-cloud icon-dow"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <p>Dowload</p><i class="fa-solid fa-cloud-arrow-down icon-dow"></i>
+                    </span>
+                  </div>
+                </button>
+                
+               
+              </div>
+            </div>
+
+            <!---
             <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                <i class="fas fa-bars text-white"></i>
-            </button>
+              <i class="fas fa-bars text-white"></i>
+          </button> -->
+
+             <!-- Fim Menu responsivo-->
 
             <div class="collapse navbar-collapse" id="nav-principal">
 
@@ -62,11 +109,11 @@
                 </li>
 
                 <li class="nav-item">
-                  <a href="#skills" class="nav-link">Skills</a>
+                  <a href="#skills" class="nav-link">Habilidades</a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="#contato" class="nav-link">Contato</a>
+                <!--  <a href="#contato" class="nav-link">Contato</a> -->
                 </li>
                 </ul>
 

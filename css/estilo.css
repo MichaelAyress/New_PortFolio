@@ -110,10 +110,7 @@ ul {
     
 }
 
-nav.navbar-transparente {
-    padding: 15px 0px;
-    background: rgba(0,0,0,0.6);
-}
+
 
 a {
     position: relative;
@@ -563,6 +560,21 @@ h3 {
 
 @media (min-width: 280px) and (max-width: 319.98px) {
 
+    .navbar-brand {
+        display: none;
+    }
+    .logo  {
+        display: none;
+    }
+    
+    .logo-name {
+        display: none;
+    }
+
+    .logo-portfolio {
+        display: none;
+    }
+
     /*- Menu Navegação --*/
     .navbar-brand {
         margin-left: 1em;
@@ -727,6 +739,21 @@ h3 {
 
 @media (min-width: 320px) and (max-width: 359.98px) {
 
+    .navbar-brand {
+        display: none;
+    }
+    .logo  {
+        display: none;
+    }
+    
+    .logo-name {
+        display: none;
+    }
+
+    .logo-portfolio {
+        display: none;
+    }
+
     /*- Menu Navegação --*/
     .navbar-brand {
         margin-left: 1em;
@@ -872,6 +899,21 @@ h3 {
 
 @media (min-width: 360px) and (max-width: 381.98px) {
 
+    .navbar-brand {
+        display: none;
+    }
+    .logo  {
+        display: none;
+    }
+    
+    .logo-name {
+        display: none;
+    }
+
+    .logo-portfolio {
+        display: none;
+    }
+
     /*- Menu Navegação --*/
     .navbar-brand {
         margin-left: 1em;
@@ -999,6 +1041,21 @@ h3 {
 }
 
 @media (min-width: 382px) and (max-width: 429.98px) {
+
+    .navbar-brand {
+        display: none;
+    }
+    .logo  {
+        display: none;
+    }
+    
+    .logo-name {
+        display: none;
+    }
+
+    .logo-portfolio {
+        display: none;
+    }
 
     /*- Menu Navegação --*/
     .navbar-brand {
@@ -1131,6 +1188,21 @@ h3 {
 }
 
 @media (min-width: 430px) and (max-width: 499.98px) {
+
+    .navbar-brand {
+        display: none;
+    }
+    .logo  {
+        display: none;
+    }
+    
+    .logo-name {
+        display: none;
+    }
+
+    .logo-portfolio {
+        display: none;
+    }
     /*- Menu Navegação --*/
     
 
@@ -1273,6 +1345,23 @@ h3 {
 
 @media (min-width: 500px) and (max-width: 767.98px) {
 
+    
+    
+    .navbar-brand {
+        display: none;
+    }
+    .logo  {
+        display: none;
+    }
+    
+    .logo-name {
+        display: none;
+    }
+
+    .logo-portfolio {
+        display: none;
+    }
+
     /*- Menu Navegação --*/
       
     .navbar-brand {
@@ -1410,7 +1499,14 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-    
+    nav.navbar-transparente {
+        padding: 15px 0px;
+        background: rgba(0,0,0,0.6);
+    }
+      
+    .nav {
+        display: none;
+    }
 
    .alinhando-pc {
          display: none;
@@ -1548,8 +1644,15 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
     
+    nav.navbar-transparente {
+        padding: 15px 0px;
+        background: rgba(0,0,0,0.6);
+    }
+
+    .nav {
+        display: none;
+    }
 
     /*------Capa ------*/
 
@@ -1665,7 +1768,14 @@ h3 {
 
 @media (min-width: 1200px) and (max-width: 1399px)  {
 
-    
+    nav.navbar-transparente {
+        padding: 15px 0px;
+        background: rgba(0,0,0,0.6);
+    }
+
+    .nav {
+        display: none;
+    }
 
     /*------Capa ------*/
 
@@ -1729,7 +1839,16 @@ h3 {
 
 @media (min-width: 1399px) {
 
+    nav.navbar-transparente {
+        padding: 15px 0px;
+        background: rgba(0,0,0,0.6);
+    }
+
     .alinhando-pc {
+        display: none;
+    }
+
+    .nav {
         display: none;
     }
 }
