@@ -1,0 +1,71 @@
+[debug] [2022-06-07T18:07:07.227Z] ----------------------------------------------------------------------
+[debug] [2022-06-07T18:07:07.228Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\micha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-07T18:07:07.229Z] CLI Version:   11.0.1
+[debug] [2022-06-07T18:07:07.229Z] Platform:      win32
+[debug] [2022-06-07T18:07:07.229Z] Node Version:  v16.15.1
+[debug] [2022-06-07T18:07:07.230Z] Time:          Tue Jun 07 2022 15:07:07 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2022-06-07T18:07:07.230Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-07T18:07:07.282Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-07T18:07:07.282Z] > authorizing via signed-in user (michaelayres1@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\micha\OneDrive\Documentos\GitHub\New_PortFolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-07T18:07:14.006Z] Using project from CLI flag: portfolio-michael-aeed0
+[debug] [2022-06-07T18:07:14.008Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-michael-aeed0 [none]
+[debug] [2022-06-07T18:07:14.596Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-michael-aeed0 200
+[debug] [2022-06-07T18:07:14.596Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-michael-aeed0 {"projectId":"portfolio-michael-aeed0","projectNumber":"50289068827","displayName":"Portfolio Michael","name":"projects/portfolio-michael-aeed0","resources":{"hostingSite":"portfolio-michael-aeed0"},"state":"ACTIVE"}
+[info] i  Using project portfolio-michael-aeed0 (Portfolio Michael) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at C:\Users\micha\OneDrive\Documentos\GitHub\New_PortFolio 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=317759262&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-06-07T18:07:15.151Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"39b808aa4bbbfa1cfdd8","redirect_uri":"http://localhost:9005","state":"317759262"}
+[debug] [2022-06-07T18:07:15.441Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Tue, 07 Jun 2022 18:07:14 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"521f7d49bd05e2bbbce401a5d2bb6b82\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"D34D:776E:13CA6F:1B32A7:629F93D2"}
+[debug] [2022-06-07T18:07:15.447Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-06-07T18:07:15.789Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-06-07T18:07:15.789Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"MichaelAyress","id":99827730,"node_id":"U_kgDOBfNAEg","avatar_url":"https://avatars.githubusercontent.com/u/99827730?v=4","gravatar_id":"","url":"https://api.github.com/users/MichaelAyress","html_url":"https://github.com/MichaelAyress","followers_url":"https://api.github.com/users/MichaelAyress/followers","following_url":"https://api.github.com/users/MichaelAyress/following{/other_user}","gists_url":"https://api.github.com/users/MichaelAyress/gists{/gist_id}","starred_url":"https://api.github.com/users/MichaelAyress/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MichaelAyress/subscriptions","organizations_url":"https://api.github.com/users/MichaelAyress/orgs","repos_url":"https://api.github.com/users/MichaelAyress/repos","events_url":"https://api.github.com/users/MichaelAyress/events{/privacy}","received_events_url":"https://api.github.com/users/MichaelAyress/received_events","type":"User","site_admin":false,"name":"Michael Ayres","company":null,"blog":"michaelayresdev@gmail.com","location":"Guaíba, Brasil RS","email":null,"hireable":true,"bio":"Desenvolvedor Front-End, estudante de Análise e Desenvolvimento de Sistemas.","twitter_username":null,"public_repos":25,"public_gists":0,"followers":13,"following":21,"created_at":"2022-02-16T17:14:24Z","updated_at":"2022-04-30T15:34:48Z","private_gists":0,"total_private_repos":26,"owned_private_repos":26,"disk_usage":227334,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as MichaelAyress 
+[info] 
+[debug] [2022-06-07T18:07:39.466Z] >>> [apiv2][query] GET https://api.github.com/repos/Michael/actions/secrets/public-key type=owner
+[debug] [2022-06-07T18:07:39.704Z] <<< [apiv2][status] GET https://api.github.com/repos/Michael/actions/secrets/public-key 404
+[debug] [2022-06-07T18:07:39.704Z] <<< [apiv2][body] GET https://api.github.com/repos/Michael/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-06-07T18:08:12.300Z] >>> [apiv2][query] GET https://api.github.com/repos/MichaelAyres/NewPortifolio/actions/secrets/public-key type=owner
+[debug] [2022-06-07T18:08:12.536Z] <<< [apiv2][status] GET https://api.github.com/repos/MichaelAyres/NewPortifolio/actions/secrets/public-key 404
+[debug] [2022-06-07T18:08:12.536Z] <<< [apiv2][body] GET https://api.github.com/repos/MichaelAyres/NewPortifolio/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-06-07T18:08:13.034Z] >>> [apiv2][query] GET https://api.github.com/repos/MichaelAyres/NewPortifolio /actions/secrets/public-key type=owner
+[debug] [2022-06-07T18:08:13.273Z] <<< [apiv2][status] GET https://api.github.com/repos/MichaelAyres/NewPortifolio /actions/secrets/public-key 404
+[debug] [2022-06-07T18:08:13.273Z] <<< [apiv2][body] GET https://api.github.com/repos/MichaelAyres/NewPortifolio /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-06-07T18:08:15.267Z] >>> [apiv2][query] GET https://api.github.com/repos/n/actions/secrets/public-key type=owner
+[debug] [2022-06-07T18:08:15.482Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-06-07T18:08:15.501Z] <<< [apiv2][status] GET https://api.github.com/repos/n/actions/secrets/public-key 404
+[debug] [2022-06-07T18:08:15.501Z] <<< [apiv2][body] GET https://api.github.com/repos/n/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-06-07T18:08:15.742Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-06-07T18:08:15.742Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
