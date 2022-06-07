@@ -27,5 +27,5 @@ setInterval(function () {
   }
 
   function abrirLink() {
-    window.location.href = "https://www.canva.com/design/DAE7FWZDiww/z1joiZjLR8sZruZ_x6kNqQ/view?utm_content=DAE7FWZDiww&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+    window.location.href ="https://www.facebook.com/michael.ayresdasilva/"
   }
