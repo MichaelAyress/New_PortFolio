@@ -6,6 +6,7 @@
 }
 
 
+
 svg {
   position: absolute;
   height: 700px;
@@ -85,6 +86,8 @@ svg.open {
   height: 50px;
   overflow: hidden;
   margin: 0px 0px 0px 32px;
+  animation-name: text;
+  animation-duration: 1s;
  }
  
  button div {
