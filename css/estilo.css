@@ -52,11 +52,11 @@ background: linear-gradient(90deg, rgba(23,13,43,1) 0%, rgba(33,17,66,1) 25%, rg
 
 a {
     text-decoration: none;
-    color: #BABCBF;
+    color: #fff;
 }
 
 a:visited {
-    color: #BABCBF;
+     color:#fff;
 }
 
 a:hover {
@@ -209,7 +209,7 @@ a {
     text-transform: uppercase;
     border: 1px solid var(--cor-secundaria);
     border-radius: 5px;
-    color: var(--cor-claro2);
+    color: #fff;
     background: none;
     font-size: 12px;
     font-weight: 700;
@@ -435,6 +435,8 @@ h3 {
 }
 
 /*----- Projetos ----*/
+
+
 
 .titulo-projeto {
 

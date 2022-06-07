@@ -27,5 +27,7 @@ setInterval(function () {
   }
 
   function abrirLink() {
-    window.location.href ="https://www.facebook.com/michael.ayresdasilva/"
+    
+   window.location.href = "https://web.whatsapp.com/"
+    
   }
